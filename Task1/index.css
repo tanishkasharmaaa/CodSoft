@@ -45,7 +45,7 @@ color: white;
 }
 .contact>div>div{
     margin: 10px;
-    border: none;
+    border: 1px solid;
      height: 27px;
 }
 
@@ -254,10 +254,12 @@ border-color: rgb(251, 73, 163);
  
 }
 .containers>div{
+    border-radius: 50px;
     margin-left: 120px;
-    border:none;
-    background-image: url(World\ Dotted\ Map\ Design\ Free\ Vector\ File\ Download\ -\ Copy.jpg);
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* height: 20px; */
+    /* border:none; */
+    /* background-image: url(World\ Dotted\ Map\ Design\ Free\ Vector\ File\ Download\ -\ Copy.jpg); */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .containers>div>img{
     width: 250px;
@@ -268,12 +270,12 @@ border-color: rgb(251, 73, 163);
   
     margin: none;
     border:none ;
-    width: 200px;
+    width: 220px;
     height: 40px;
     text-align: center;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    margin-left: 50px;
+    margin-left: 30px;
     margin-top: -15px;
     overflow: auto;
     z-index: 10px;
@@ -286,4 +288,18 @@ border-color: rgb(251, 73, 163);
 .containers>div>div>h3{
     margin-top: 9px;
 
+}
+.exp{
+    display: flex;
+    width: 300px;
+}
+.exp>div{
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    margin-top: 4px;
+    margin-left: 5px;
+    background-color: rgb(251, 73, 163);
+    background-color: linear-gradient(241deg, rgba(251, 73, 163, 0.814805145691089) 33%, rgba(252, 110, 184, 1) 47%, rgba(255, 173, 108, 0.764384977623862) 62%); 
 }
