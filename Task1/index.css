@@ -9,6 +9,7 @@ body {
 #navbar1 {
     background: rgb(251, 73, 163);
     background: linear-gradient(241deg, rgba(251, 73, 163, 0.814805145691089) 33%, rgba(252, 110, 184, 1) 47%, rgba(255, 173, 108, 0.764384977623862) 62%);
+  
     border: none;
     display: flex;
     justify-content: space-between;
@@ -60,6 +61,7 @@ button{
     font-weight: 600;
 }
 #navbar2{
+   
     margin: 0%;
     padding-left:100px ;
     padding-right: 100px;
